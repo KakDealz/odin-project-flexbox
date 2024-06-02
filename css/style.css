@@ -45,8 +45,9 @@ ul {
 
 }
 
-button {
+.sign-up-button {
     background-color: #3882F6;
-    margin: 0;
-    padding: 0;
+    color: #E5E7EB;
+    border-color: #3882F6;
+    border-radius: 10%;
 }
