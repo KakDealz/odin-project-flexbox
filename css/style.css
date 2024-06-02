@@ -48,12 +48,27 @@ ul {
 .sign-up-button {
     background-color: #3882F6;
     color: #E5E7EB;
-    border-color: #3882F6;
-    border-radius: 10%;
+    border: none;
+    border-radius: 7px;
+    width: 100px;
+    height: 30px;
+    box-shadow: none;
 }
 
 .image-placeholder {
     background-color: gray;
     width: 500px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: -20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
 }
