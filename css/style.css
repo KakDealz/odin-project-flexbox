@@ -1,11 +1,18 @@
 * {
     padding: 0;
+    margin: 0;
 }
 
 body {
-    background-color: #1F2937;
-    max-width: 1250px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-bleed {
+    box-shadow: 0 0 0 100vmax #1F2937;
+    clip-path: inset(0 -100vmax);
 }
 
 .navigation-bar {
@@ -64,14 +71,28 @@ ul {
     align-items: center;
 }
 
-h2 {
-    margin-bottom: -20px;
-}
 
 .content {
     margin-top: 80px;
     display: flex;
     align-items: center;
+    margin-bottom: 120px;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+main {
+    background-color: white;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .illustration {
@@ -89,4 +110,11 @@ h2 {
 
 .caption {
     display: block;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 16px;
 }
