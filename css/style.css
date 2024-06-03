@@ -69,6 +69,24 @@ h2 {
 }
 
 .content {
+    margin-top: 80px;
     display: flex;
     align-items: center;
+}
+
+.illustration {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+
+.illustration > img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
+
+.caption {
+    display: block;
 }
