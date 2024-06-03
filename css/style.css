@@ -60,6 +60,7 @@ ul {
     width: 100px;
     height: 30px;
     box-shadow: none;
+    font-weight: 900;
 }
 
 .image-placeholder {
